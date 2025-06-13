@@ -1,31 +1,31 @@
-#!/bin/bash
+# 🏀 INJURIES_IABET - NBA INJURY DATA TRACKER
 
-# 📌 INJURIES_IABET - NBA INJURY DATA TRACKER
-# Descripción: 
-#   Script para extraer datos de lesiones de la NBA usando SportRadar API.
-#   Guarda resultados en JSON y muestra resumen en terminal.
+> Script para extraer datos de lesiones de la NBA usando la API de SportRadar.
 
-# 📦 DEPENDENCIAS
-#   - Python 3.8+
-#   - Pip
-#   - requests (paquete Python)
-#   - Virtualenv (opcional)
+---
 
-# 📂 ENTRADAS
-#   - API Key válida de SportRadar (en scripts/main.py)
-#   - Estructura de carpetas:
-#     ./data/json/       # Para almacenar JSON
-#     ./scripts/main.py  # Código principal
+## 📌 Descripción
 
-# 🖥️ SALIDAS
-#   - Terminal: 
-#     * Resumen de jugadores lesionados por equipo
-#     * Estado de la operación (éxito/error)
-#   - Archivos:
-#     * data/json/nba_injuries_YYYY-MM-DD.json
+Este proyecto permite automatizar la recolección de datos de jugadores lesionados en la NBA mediante la API oficial de SportRadar. Los resultados se guardan en formato `.json` y se muestra un resumen amigable en la terminal.
 
+---
 
-# 🚀 USO BÁSICO
-# 1. Configurar API Key en scripts/main.py
-# 2. Ejecutar:
-#    $ python scripts/main.py
+## 📦 Dependencias
+
+- Python 3.8 o superior  
+- `pip`  
+- Paquete [`requests`](https://pypi.org/project/requests/)  
+- `virtualenv` (opcional)
+
+- ---
+
+## 🖥️ Salidas
+
+- **Terminal**:
+  - Resumen de jugadores lesionados por equipo
+  - Estado de la operación (éxito o error)
+
+- **Archivos**:
+  - `data/json/nba_injuries_YYYY-MM-DD.json`
+
+---
